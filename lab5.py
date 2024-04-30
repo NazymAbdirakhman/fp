@@ -1,5 +1,5 @@
 import functools
-
+#fpppppp
 def memoize(func):
     cache = {}
 
