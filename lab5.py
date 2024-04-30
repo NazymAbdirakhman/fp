@@ -3,6 +3,7 @@ import functools
 def memoize(func):
     cache = {}
 
+    # fp
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         key = (args, frozenset(kwargs.items()))
