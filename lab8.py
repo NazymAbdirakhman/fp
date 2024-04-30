@@ -1,6 +1,6 @@
 import os
 from docx2pdf import convert
-
+#nazymAbdi
 def convert_docx_to_pdf(docx_file, pdf_file):
     """
     Конвертирует файл .docx в файл .pdf.

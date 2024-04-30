@@ -1,5 +1,5 @@
 import functools
-#nazymAbdi
+
 def memoize(func):
     cache = {}
 
